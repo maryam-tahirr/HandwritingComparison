@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-import tf_keras as keras
 from tf_keras.models import load_model
 from tf_keras.preprocessing.image import load_img, img_to_array
 import easyocr
